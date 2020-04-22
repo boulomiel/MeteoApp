@@ -7,7 +7,7 @@ import java.text.DateFormat.getDateTimeInstance
 
 
 val baseUrl = "https://api.openweathermap.org/data/2.5/"
-val apiKey = "dd420b4d8f0062be19c05271c983c18f"
+val apiKey = "GET-AN-API-KEY"
 typealias ArrayAnyDict = Array<AnyDict>
 typealias AnyDict = Map<Any,Any>
 
