@@ -43,11 +43,7 @@ interface WeatherApi{
                      @Query("appid") apiKey : String)
     : Observable<Response<AnyDict>>
 
-    @GET("weather")
-    fun fetchWeatherArray(@Query("lat") lat: Double,
-                     @Query ("lon") lon : Double,
-                     @Query("appid") apiKey : String)
-            : Observable<Response<ArrayAnyDict>>
+
 
 
 
